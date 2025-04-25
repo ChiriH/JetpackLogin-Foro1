@@ -35,7 +35,7 @@ private val LightColorScheme = lightColorScheme(
 
 @Composable
 fun JetpackLoginTheme(
-    darkTheme: Boolean = true, // <- Cambia aquí para forzar claro u oscuro
+    darkTheme: Boolean = true, // <- forzar claro u oscuro
     dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
